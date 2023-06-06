@@ -1,0 +1,226 @@
+body {
+    background-color: #8c6d3b3f;
+}
+
+ul {
+  list-style-type: none;
+}
+
+header {
+    background-color: #8c6d3b6c;
+}
+#chef {
+    width: 100px
+ }
+
+
+.cabecera h1 {
+    text-align: center;
+    font-style: italic;
+    color: grey;
+    text-shadow: -1px 1px 3px black;
+    
+}
+
+
+
+nav a {
+   
+    overflow: hidden;
+    text-decoration: none;
+    margin-top: auto;
+    color: grey;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-shadow: -1px 1px 3px black;
+    
+}
+
+
+img {
+  border-radius: 10px;
+    
+}
+
+.primerfoto {
+    width: 310px;
+    height: 350px;
+    margin-right: 150px;
+    margin-left: 40px;
+    box-shadow: inset;
+}
+
+.pedrito {
+    width: 310px;
+    height: 350px;
+    margin-right: 150px;
+}
+
+.canelon {
+    width: 310px;
+    height: 350px;
+}
+
+.text p {
+    margin-left: 15px;
+}
+.text1 {
+    
+    font-family: 'Courier New', Courier, monospace;
+    background-color: #8c6d3b05;
+    text-shadow: 20px 15px 7px red;
+}
+
+.seccion-color {
+    background-color: #8c6d3b6c;
+    overflow: hidden;
+}
+.receta {
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-shadow: -1px 1px 3px black;
+}
+
+.receta-final {
+    text-shadow: 10px 15px 7px red;
+
+}
+.receta-final1 {
+    text-shadow: 10px 15px 7px red;
+    overflow: hidden;
+}
+
+.listas-receta {
+    text-shadow: 10px 15px 7px red;
+}
+
+.footer-edit a {
+    color: black;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 0.8em;
+    text-decoration: none;
+}
+
+.contacto-footer {
+    margin-left: 2em;
+}
+
+.fotitos {
+    height: calc( 300px + 3em);
+    width: 260px;
+    margin:1em auto;
+    border: 1px solid #555;
+    position: relative;  
+  }
+  
+  .fotitos img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    transition: opacity 3s;
+  }
+  
+  .fotitos input[type=radio] {
+    position: relative;
+    bottom: calc(-300px - 1.5em);
+    left: .5em;
+  }
+  
+  .fotitos input[type=radio]:nth-of-type(1):checked ~ img:nth-of-type(1) {
+    opacity: 1;
+  }
+  
+  .fotitos input[type=radio]:nth-of-type(2):checked ~ img:nth-of-type(2) {
+    opacity: 1;
+  }
+  
+  .fotitos input[type=radio]:nth-of-type(3):checked ~ img:nth-of-type(3) {
+    opacity: 1;
+  }
+  
+  .fotitos input[type=radio]:nth-of-type(4):checked ~ img:nth-of-type(4) {
+    opacity: 1;
+  }
+
+  .fotitos input[type=radio]:nth-of-type(5):checked ~ img:nth-of-type(5) {
+    opacity: 1;
+  }
+
+  .fotitos input[type=radio]:nth-of-type(6):checked ~ img:nth-of-type(6) {
+    opacity: 1;
+  }
+
+  .fotitos input[type=radio]:nth-of-type(7):checked ~ img:nth-of-type(7) {
+    opacity: 1;
+  }
+
+  .fotitos input[type=radio]:nth-of-type(8):checked ~ img:nth-of-type(8) {
+    opacity: 1;
+  }
+
+  .titu1 {
+    text-align: center;
+    font-style: italic;
+    color: grey;
+    text-shadow: -1px 1px 3px black;
+     }
+
+     .texto {
+    
+        font-family: 'Courier New', Courier, monospace;
+        background-color: #8c6d3b05;
+        text-shadow: 20px 15px 7px red;
+    }
+
+    .menu-img {
+        height: calc( 300px + 3em);
+        width: 260px;
+        margin:0.8em auto;
+        text-align: center;
+        
+        
+    }
+
+    .border {
+      border: auto solid grey;
+    }
+
+    .item-1{
+      background-color: grey;
+    }
+
+    .item-2{
+      background-color: grey;
+    }
+
+    .item-3{
+      background-color: grey;
+    }
+
+    .item-4{
+      background-color: grey;
+    }
+    
+    .grid-container {
+      display: grid;
+      grid-template-columns: auto auto auto auto; 
+     
+     }
+     
+     .grid-container1 {
+      background-color: grey;
+      display: grid;
+      grid-template-columns: 500px 500px 500px;
+      grid-template-rows: auto;
+     }
+
+     .grid-container3 {  
+      background-color: rgba(128, 128, 128, 0.479);
+      display: grid;
+      grid-template-columns: 250px 500px 200px;
+     
+    }
+      
+  
+
+     
